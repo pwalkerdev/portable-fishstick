@@ -1,0 +1,19 @@
+bugs:
+- items added to the list are duplicated
+- items are not untickable
+- deleting list items will not actually remove them from the DOM
+- input text is not trimmed when adding an item
+
+code smells:
+- using 'var' in global script tag (globals in general)
+- using 'var' in methods & code blocks
+- variables with the same name are declared multiple times in clashing scopes
+- styles and scripts should be stored in separate files
+- close buttons do not need to be created with code
+- code contains easily reusable code that was duplicated
+- unhelpful / inconsistent naming across html, javascript and css
+- inconsistent usage of single and double quotes in javascript
+
+suggested improvements:
+- add column for due date
+- add dark theme
